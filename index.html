@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Etch A Sketch</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+     <h1>Etch-A-Sketch</h1>
+     <h2> Swirl around!</h2>
+
+     <div class = 'container'>
+        <div class = 'controls'>
+            <div class = 'controls-inner'>
+                <h3>Controls</h3>
+                <div class = 'grid-size'>8x8</div>
+                <input type = 'range' min="2" max="30" value="8"/>
+                <button class = 'apply'>Apply</button>
+                <button class = 'reset'> Reset</button>
+            </div>
+        </div>
+
+        <div class = 'grid'></div>
+     </div>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
